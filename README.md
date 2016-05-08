@@ -25,8 +25,8 @@ gulp.task('html', function() {
 
 
 ```
-
-### html
+### html 
+####index.tpl.html
 ```html
 <!doctype html>
 <html lang="en">
@@ -48,7 +48,8 @@ gulp.task('html', function() {
 
 ```
 
-```html: user.html
+#### user.html
+```html
 <!-- tpl 
 	{
 		"parent": "template/index.tpl.html", "css": "/styles/user.css, /style/default.css", 
@@ -63,6 +64,7 @@ gulp.task('html', function() {
 	<span>#{user}</span>
 	.....
 </div><!--end user page-->
+```
 
 ### result: user.html
 ```html
