@@ -107,7 +107,7 @@ var paths = {bowerjs:[
 	'./bower_components/bootstrap/dist/js/bootstrap.js'
 ]}
 
-var processCallback() = function (info, isDebug){
+var processCallback = function (info, isDebug){
 	if(info.type == "tpl"){
 		var source = fs.readFileSync(config.app+"/"+info.ref);
 		if(source)
