@@ -25,8 +25,9 @@ gulp.task('html', function() {
 
 
 ```
+
 ### html
-```html: index.tpl.html
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -159,9 +160,7 @@ user.html
 		"parent": "index.tpl.html", "css": "/styles/user.css, /style/default.css", 
 		"title": "this is user profile page"
 		"user":"tuxming@sina.com",
-		"jsref": "<span class='buildjs' name='main.js' dist='/scripts/' >"+
-				  "<script type='text/javascript' class='concat' base='../..' src='../../script/main.js'></script>"+
-				  "<script type='text/javascript' class='concat' base='../..' src='../../script/config.js'></script>"
+		"jsref": "<span class='buildjs' name='main.js' dist='/scripts/' ><script type='text/javascript' class='concat' base='../..' src='../../script/main.js'></script><script type='text/javascript' class='concat' base='../..' src='../../script/config.js'></script>"
 	} 
 -->
 <!--begin user page -->
