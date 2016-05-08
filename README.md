@@ -64,6 +64,7 @@ gulp.task('html', function() {
 	<span>#{user}</span>
 	.....
 </div><!--end user page-->
+```
 
 ### result: user.html
 ```html
