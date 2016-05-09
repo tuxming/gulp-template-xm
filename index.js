@@ -51,7 +51,7 @@ function processHtmlForString(content, options){
 		if(jsonStr && jsonStr.length>0){
 			
 			jsonStr[0] = jsonStr[0].replace(/\r?\n|\r|\t/g, "");
-			console.log("12312::"+jsonStr[0]);
+			//console.log("12312::"+jsonStr[0]);
 			var info = JSON.parse(jsonStr[0]);
 			
 			//load template
